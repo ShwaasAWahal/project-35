@@ -62,7 +62,7 @@ function draw() {
   else if(keyDown(DOWN_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //write code to move air balloon in down direction
-    writedb(0.5)
+    writedb(0,5)
   }
 
   drawSprites();
